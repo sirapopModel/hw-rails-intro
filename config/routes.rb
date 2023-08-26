@@ -14,8 +14,10 @@ Rails.application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
-  resources :movies
-  
+  resources :movies #POWERFUL MAGIC METHOD
+  #get "movies/", to : "movies#new"
+  #get "movies/new"
+  #get "/movies" (go to index method)
   # Example resource route with options:
   #   resources :products do
   #     member do
